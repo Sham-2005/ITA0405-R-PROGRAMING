@@ -1,0 +1,2 @@
+random_integers <- sample(-50:50, 10, replace = TRUE)
+cat("Random integers: ", random_integers, "\n")
