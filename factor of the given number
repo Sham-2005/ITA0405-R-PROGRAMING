@@ -1,0 +1,10 @@
+find_factors <- function(n) {
+  factors <- which(n %% 1:n == 0)
+  return(factors)
+}
+
+# Example number (e.g., 36)
+factors_of_36 <- find_factors(36)
+
+# Display the factors
+cat("Factors of 36: ", factors_of_36, "\n")
