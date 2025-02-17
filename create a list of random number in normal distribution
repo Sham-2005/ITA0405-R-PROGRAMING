@@ -1,0 +1,4 @@
+random_numbers <- rnorm(100)
+count_occurrences <- table(random_numbers)
+cat("Count of occurrences for each value:\n")
+print(count_occurrences)
